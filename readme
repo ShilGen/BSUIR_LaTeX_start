@@ -1,0 +1,13 @@
+БГУИР титульный лист
+для контрольной работы
+LaTeX шаблон
+Ubuntu 12.04, установка почти визуального редактора: 
+sudo apt-get install gummi
+Будут установлены следующие дополнительные пакеты:
+intltool-debian lacheck libgtksourceview2.0-0 libgtksourceview2.0-common
+lmodern luatex po-debconf tex-common texlive-base texlive-binaries
+texlive-common texlive-doc-base texlive-extra-utils texlive-latex-base
+texlive-latex-base-doc texlive-luatex texlive-xetex
+Предлагаемые пакеты:
+auctex libmail-box-perl debhelper dvidvi fragmaster latexmk purifyeps xindy
+Жесткий диск потяжелеет на 95.6 Мб - но это при условии что стандартных библиотек у меня не было.
