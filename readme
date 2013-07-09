@@ -11,3 +11,25 @@ texlive-latex-base-doc texlive-luatex texlive-xetex
 Предлагаемые пакеты:
 auctex libmail-box-perl debhelper dvidvi fragmaster latexmk purifyeps xindy
 Жесткий диск потяжелеет на 95.6 Мб - но это при условии что стандартных библиотек у меня не было.
+
+http://www.lyx.org/
+LyX  — свободный процессор документов, основанный на системе компьютерной вёрстки LaTeX
+To install and use LyX from a PPA, do the following (using the daily PPA as the example):
+sudo add-apt-repository ppa:lyx-devel/daily (add the PPA)
+sudo apt-get update (update so that apt is aware of the new PPA)
+sudo apt-get install lyx2.0 (install from the PPA)
+lyx2.0 (run LyX)
+sudo apt-get install lyx2.0
+...
+Будут установлены следующие дополнительные пакеты:
+  dvipng elyxer libboost-regex1.46.1 libboost-signals1.46.1 lyx-common2.0
+  texlive-generic-extra texlive-science texlive-science-doc ttf-lyx
+Предлагаемые пакеты:
+  rcs dvipost groff libtiff-tools gnuhtml2latex wv chktex noweb sgmltools-lite
+  linuxdoc-tools writer2latex latex2rtf librsvg2-bin inkscape etoolbox
+  libapp-makebeamerinfo-perl
+НОВЫЕ пакеты, которые будут установлены:
+  dvipng elyxer libboost-regex1.46.1 libboost-signals1.46.1 lyx-common2.0
+  lyx2.0 texlive-generic-extra texlive-science texlive-science-doc ttf-lyx
+...
+Необходимо скачать 25,9 MБ архивов.
